@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="bootstrap.css" />
+    <link rel="stylesheet" href="css.css" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+</head>
+
+<body>
+
+    <!-- Sticky nav-->
+    <nav id="topNav" class="navbar sticky-top  navbar-expand-lg mw-100 navbar-light bg-light shadow">
+        <div>
+            <div class="p-1 d-none d-lg-block d-lg-none">
+                <p class="small font-weight-bold text-uppercase">
+                    öppettider
+                    <span class="ml-2 font-weight-bold text-muted text-uppercase">mån-fre 11:30 - sent</span>
+                    <span class="ml-2 font-weight-bold text-muted text-uppercase">lör 12:00 - sent</span>
+                    <span class="ml-2 font-weight-bold text-muted text-uppercase">sön stängt</span>
+                    <span class="ml-2 font-weight-bold text-muted float-right">033-323 63 13</span>
+                    <span class="float-right"><ion-icon name="phone-portrait" id ="phone-icon"></ion-icon></span>
+                </p>
+            </div>
+
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarFixed" aria-controls="navbarFixed" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+
+            <div class="collapse navbar-collapse container-fluid" id="navbarFixed">
+                <div class="row align-items-end mx-auto">
+                    <div class="col-md-4 text-center mx-auto">
+                        <ul class="navbar-nav">
+                            <li class="nav-item active">
+                                <a class="nav-link text-uppercase text-warning align-bottom" href="#">Startsidan <span
+                                class="sr-only">(current)</span></a>
+                            </li>
+                            <li class="nav-item dropdown ml-4">
+                                <a class="nav-link dropdown-toggle text-uppercase text-muted" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                menyer
+                            </a>
+                                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <a class="dropdown-item" href="#">A la Carté-meny</a>
+                                    <div class="dropdown-divider"></div>
+                                    <a class="dropdown-item" href="#">AW-meny</a>
+                                    <div class="dropdown-divider"></div>
+                                    <a class="dropdown-item" href="#">Lunch</a>
+                                </div>
+                            </li>
+                            <li class="nav-item text-uppercase text-muted ml-4">
+                                <a class="nav-link" href="#"> bildgalleri</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="container-fluid text-center col-md-4 mw-100 mx-auto" style="width:1150px">
+                        <div class="text-center d-none d-lg-block d-lg-none">
+                            <a href="marcus.html">
+                                <img id="logo" class="img-responsive " src="https://thetownhouse.se/uploads/2018/10/logo.svg" />
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-md-4 text-center mx-auto">
+                        <ul class="navbar-nav float-lg-right">
+                            <li class="nav-item active">
+                                <a class="nav-link text-uppercase align-bottom" href="#">om oss <span
+                                        class="sr-only">(current)</span></a>
+                            </li>
+                            <li class="nav-item text-uppercase text-muted ml-3">
+                                <a class="nav-link" href="#"> jobba hos oss</a>
+                            </li>
+                            <li class="nav-item text-uppercase text-muted ml-3">
+                                <a class="nav-link" href="#"> kontakt</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!-- !Sticky nav-->
+    <div class="container">
+
+        <!-- Main splash-->
+        <header class="masthead">
+            <div class="container h-100">
+                <div class="row h-100 align-items-center">
+                    <div class="col-12 text-center ">
+                        <img class="overlay-img-main" src="https://thetownhouse.se/uploads/2018/11/logo-small-white.svg" alt="">
+
+                        <h1 class="font-weight-light text-white text-uppercase" data-aos="fade-up-small" data-aos-delay="300" data-aos-duration="1000">Boka bord nu! </br> 033-323 63 13</h1>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <section class="py-1">
+            <div class="container-fluid bg-white bordered px-0" data-aos="fade">
+                <div class="row">
+                    <div class="p-3 col-lg-6">
+                        <h2 class="p-4 font-weight-light text-uppercase text-center">aw35</h2>
+                        <p class="px-5">Med The TownHouse har vi skapat en naturlig mötesplats i hjärtat av Borås där storstadskänsla möter värme och personlighet. Ett levande ställe från lunch till kväll som passar precis lika bra för en spontan AW med gänget som för
+                            en härlig middag med stora familjen.</p>
+                        <p class="px-5">Du missar väl inte våra AW-fredagar? 27/12 kör vi årets sista AW, missa inte denna! Efter årsskiftet tar våra fredagar en liten paus, för att återigen köra igång fredagen 31/1 med spännande nyheter och ny energi inför 2020! </p>
+                        <p class="px-5"> Vår DJ spelar skön musik från 17.00 och du har goa priser på mat & dryck i baren.</div>
+                    <div class="p-5 col-lg-6  d-flex align-items-center">
+                        <img class="img-fluid mx-auto" src="https://thetownhouse.se/uploads/2019/01/awno35-hendricks.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="">
+            <div class="container-fluid bg-white px-0" data-aos="fade">
+                <div class="row no-gutters ">
+                    <div class="col-4">
+                        <img class="img-fluid" src="https://thetownhouse.se/uploads/2018/11/img_2619.jpg" alt="">
+                        <div class="slider-top-right"></div>
+                    </div>
+                    <div class="col-4">
+                        <img class="img-fluid img-row" src="https://thetownhouse.se/uploads/2018/11/img_3956-n.jpg" alt="">
+                    </div>
+                    <div class="col-4">
+                        <img class="img-fluid img-row" src="https://thetownhouse.se/uploads/2018/11/townhouse2.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <div class="container-fluid bg-white d-flex align-items-center bordered px-0" data-aos="fade" id="small-container">
+            <div class="text-uppercase text-dark mx-auto">
+                <h2 class="font-weight-light">vår mat</h2>
+            </div>
+        </div>
+
+        <section class="">
+            <div class="container-fluid px-0" data-aos="fade">
+                <div class="row">
+                    <div class="col-12">
+                        <img class="img-fluid" src="https://thetownhouse.se/uploads/2018/11/img_1966-n.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="">
+            <div class="container-fluid bg-light " data-aos="fade">
+                <div class="row">
+                    <div class="col-lg-6 d-flex justify-content-center px-0 order-md-last" data-aos="fade">
+                        <img class="img-fluid" src="https://thetownhouse.se/uploads/2018/11/img_3938.jpg" alt="">
+                        <img class="overlay-img" src="https://thetownhouse.se/uploads/2018/11/logo-small-white.svg" alt="" data-aos="fade" data-aos-delay="100">
+                    </div>
+                    <div class="p-5 col-lg-6 bordered d-flex align-items-center">
+                        <div class="w-100  py-6  py-sm-8  px-sm-5">
+                            <h2 class="font-weight-light text-uppercase text-center">vår lunchmeny</h2>
+                            <p style="text-align: center;">
+                                <a class="btn btn-primary mx-auto text-center" href="#">LUNCH</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="">
+            <div class="container-fluid bg-light px-0" data-aos="fade">
+                <div class="row">
+                    <div class="p-3 col-lg-6 d-flex align-items-center" id="small-container-img">
+                        <img class="logo-small mx-auto" src="https://thetownhouse.se/uploads/2018/11/no35-white.svg" alt="" data-aos="fade" data-aos-delay="100">
+                    </div>
+                    <div class="p-5 col-lg-6 bordered">
+                        <h2 class="p-4 font-weight-light text-uppercase text-center">A la carté</h2>
+                        <p class="px-5">För kvällar och helger har vi tagit fram en inspirerande och nyskapande A la Carté-meny för alla gäster som uppskattar god mat och dryck i en unik miljö. Vår meny speglar oss som modern restaurang och här finner du smakupplevelser
+                            från världens alla hörn. Välj fritt bland dina personliga favoriter och låt vår kock komponera en komplett måltid som alltid håller hög klass. Den traditionella måltiden kan givetvis också anpassas utifrån dig och ditt sällskap
+                            genom att bytas ut mot större eller mindre rätter, alternativt delas. Perfekt för det större sällskapet eller familjen med varierande smak.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="">
+            <div class="container-fluid px-0" data-aos="fade">
+                <div class="row">
+                    <div class="col-12">
+                        <img class="img-fluid" src="https://thetownhouse.se/uploads/2018/11/img_1937.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <div class="container-fluid bg-white d-flex align-items-center bordered" data-aos="fade" id="small-container">
+            <div class="text-uppercase text-dark mx-auto">
+                <h2 class="font-weight-light">save the date</h2>
+            </div>
+        </div>
+
+        <section class="">
+            <div class="container-fluid px-0" data-aos="fade">
+                <div class="row">
+                    <div class="col-12">
+                        <img class="img-fluid" src="https://thetownhouse.se/uploads/2018/11/img_1958-o.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="bordered bg-light py-5">
+            <div class="container-fluid bg-light ">
+                <div class="row text-center">
+                    <div class=" col-lg-4 border-gray-right" data-aos="fade">
+                        <h2 class="p-2 font-weight-light text-uppercase">After work</h2>
+                        <p>Läs mer om afterwork! </br> Ni kan också kika in vår Facebook!</p>
+                        <p>
+                            <a class="m-1 btn btn-primary dark-btn text-uppercase" href="#">Mer information</a>
+                            <a class="m-1 btn btn-primary dark-btn text-uppercase" href="#">Facebook</a>
+                        </p>
+                    </div>
+
+                    <div class=" col-lg-4 border-gray-right" data-aos="fade" data-aos-delay="100">
+                        <h2 class="p-2 font-weight-light text-uppercase">meny</h2>
+                        <p>Kika igenom vår </br>utsökta meny!
+                        </p>
+                        <p>
+                            <a class="m-1 btn btn-primary dark-btn text-uppercase" href="#">Meny</a>
+                        </p>
+                    </div>
+
+                    <div class=" col-lg-4" data-aos="fade" data-aos-delay="200">
+                        <h2 class="p-2 font-weight-light text-uppercase">jobba hos oss</h2>
+                        <p>Vi söker alltid härliga människor, </br> gör en ansökan så hör vi av oss!</p>
+                        <p>
+                            <a class="m-1 btn btn-primary dark-btn text-uppercase" href="#">Jobba hos oss</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="">
+            <div class="container-fluid px-0" data-aos="fade">
+                <div class="row">
+                    <div class="col-12">
+                        <img class="img-fluid" src="https://thetownhouse.se/uploads/2018/11/img_1840-o.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <div class="container-fluid bg-white d-flex align-items-center px-0" data-aos="fade" id="small-container2">
+            <div class="p-3 col-lg-12 text-uppercase text-dark mx-auto text-center">
+                <h2 class="font-weight-light">vårt instagramflöde</h2>
+            </div>
+        </div>
+
+        <section class="">
+            <div class="container-fluid bg-white bordered">
+                <div class="row text-center d-flex justify-content-center">
+                    <div class="p-5 col-lg-12">
+                        <h2 class="text-uppercase font-weight-light">Kontakta oss</h2>
+                    </div>
+
+                    <div class="px-5 col-lg-5">
+                        <form>
+                            <div class="form-group">
+                                <input class="form-control" id="inputname" placeholder="Namn">
+                            </div>
+                            <div class="form-group">
+                                <input type="email" class="form-control" id="inputemail" placeholder="E-post">
+                            </div>
+                            <div class="form-group">
+                                <input class="form-control" id="inputphone" placeholder="Telefon">
+                            </div>
+                            <div class="form-group">
+                            </div>
+                        </form>
+                    </div>
+
+                    <div class="px-5 col-lg-5">
+                        <form>
+                            <div class="form-group">
+                                <textarea class="form-control" id="inputtext" rows="3" placeholder="Meddelande"></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-primary w-100">SKICKA</button>
+                        </form>
+                    </div>
+                </div>
+
+                <div class="row d-flex justify-content-center font-weight-bold">
+                    <div class="p-5 col-lg-3">
+                        Österlånggatan 35</br>
+                        503 31 Borås </br>
+                        info@thetownhouse.se </br>
+                        033-323 63 13
+                    </div>
+
+                    <div class="p-5 col-lg-4 d-flex justify-content-lg-center">
+                        <a class="text-dark p-2" href="#">
+                            <ion-icon size="large" name="logo-facebook"></ion-icon>
+                        </a>
+                        <a class="text-dark p-2" href="#">
+                            <ion-icon size="large" name="logo-instagram"></ion-icon>
+                        </a>
+                        <a class="text-dark p-2" href="#">
+                            <ion-icon size="large" name="map"></ion-icon>
+                        </a>
+                    </div>
+
+                    <div class="p-5 col-lg-3 text-lg-right">
+                        Öppettider </br>
+                        Mån-fre 11.30 - sent</br>
+                        Lör 12.00 - sent</br>
+                        Sön stängt
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <footer>
+            <div class="p-3 bg-light text-dark">
+                <span>© 2020 The Townhouse No. 35 AB</span>
+            </div>
+        </footer>
+
+        <!--Scripts -->
+        <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+        <script src="../../dist/js/bootstrap.min.js"></script>
+        <script>
+            AOS.init();
+        </script>
+    </div>
+</body>

@@ -1,0 +1,118 @@
+    @-ms-viewport {
+        width: device-width;
+    }
+    
+    @media only screen and (min-width: 100px) {
+        * {
+            overflow-x: hidden;
+        }
+    }
+    
+    @media only screen and (min-width: 900px) {
+        * {
+            overflow-x: visible;
+        }
+    }
+    
+    @media only screen and (min-width: 900px) {
+        .bordered {
+            position: relative;
+        }
+        .bordered:after,
+        .bordered:before {
+            content: "";
+            position: absolute;
+            top: 30px;
+            right: 30px;
+            bottom: 30px;
+            left: 30px;
+            display: block;
+            border: 1px solid;
+            pointer-events: none !important;
+        }
+        .bordered:before {
+            margin-top: -15px;
+            margin-left: -15px;
+        }
+        .bordered:after {
+            margin-right: -15px;
+            margin-bottom: -15px;
+        }
+    }
+    
+    #small-container {
+        height: 13rem;
+        background-image: url("https://thetownhouse.se/uploads/2018/11/palmer.svg");
+        background-size: cover;
+    }
+    
+    #small-container2 {
+        height: 13rem;
+    }
+    
+    #small-container-img {
+        background-image: url(https://thetownhouse.se/uploads/2018/11/img_3945.jpg);
+        background-size: cover;
+    }
+    
+    .logo-small {
+        height: 15rem;
+    }
+    
+    .img-fluid {
+        min-height: 100%;
+    }
+    
+    .btn-primary {
+        background-color: #b99043 !important;
+        border-color: #b99043 !important;
+    }
+    
+    .btn-primary:hover {
+        background-color: #9d7a39 !important;
+        border-color: #9c9484 !important;
+    }
+    
+    .dark-btn {
+        background-color: #343a40 !important;
+        border-color: #343a40 !important;
+    }
+    
+    .dark-btn:hover {
+        background-color: #23272b !important;
+        border-color: #23272b !important;
+    }
+    
+    .overlay-img {
+        position: absolute;
+        max-width: 25%;
+        top: 25%;
+    }
+    
+    .overlay-img-main {
+        max-width: 20rem;
+    }
+    
+    .masthead {
+        background-image: url(https://thetownhouse.se/uploads/2018/11/img_0729-po.jpg);
+        background-position: 50%;
+        background-size: cover;
+    }
+    
+    p {
+        line-height: 1.75;
+    }
+    
+    .border-gray-right {
+        border-right: 1px solid #dee2e6;
+    }
+    
+    input:focus,
+    textarea:focus {
+        border-color: transparent !important;
+    }
+    
+    #phone-icon {
+        color: #b99043 !important;
+        font-size: 1.2rem;
+    }
